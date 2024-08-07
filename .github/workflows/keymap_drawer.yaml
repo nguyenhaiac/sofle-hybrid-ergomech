@@ -20,4 +20,4 @@ jobs:
       output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
       json_path: "config/info.json"
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: " -j ${{ inputs.json_path }}"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      draw_args: " -j config/info.json"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
